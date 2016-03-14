@@ -1,0 +1,18 @@
+[user]
+	name = Drew Michel
+	email = drew.michel@me.com
+
+[core]
+    editor = vim
+
+[alias]
+    st = status
+    br = branch
+    l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    ll = log --pretty=oneline --graph --abbrev-commit
+    lm = log --pretty=format:'* %s (%h)'
+    lg = log -p
+    amend = commit --amend --reuse-message=HEAD
+
+[fetch]
+  prune = true
