@@ -1,6 +1,7 @@
 #http://blog.sanctum.geek.nz/better-bash-history/
 
 shopt -s histappend
+
 HISTFILESIZE=10000
 HISTSIZE=10000
 HISTCONTROL=ignoreboth
