@@ -2,4 +2,4 @@ alias ll='ls -lG'
 alias g="git"
 alias v="vim"
 
-alias st='open -a "Sublime Text"
+alias st='open -a "Sublime Text 2"'
